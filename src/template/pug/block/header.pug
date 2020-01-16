@@ -1,0 +1,20 @@
+
+header.header
+  .header__search
+    //- Может это и логотип такой, хз, поэтому пусть будет штрих-код(barcode) =)
+    .header__barcode
+      img(src="../media/header/barcode.svg", alt="Штрих-код")
+    .header__loop
+      form(id="", method="", action="")
+        button
+          img(src="../media/header/loop.svg", alt="Иконка поиска")
+        input(placeholder="ПОИСК")
+  .header__nav
+    include nav
+  .header__add
+    span
+    span
+  .header__notification.header__notification_active
+    span 2
+    img(src="../media/header/notification.svg", alt="Уведомления")
+  include profile
